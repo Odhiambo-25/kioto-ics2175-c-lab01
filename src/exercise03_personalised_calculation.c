@@ -2,10 +2,10 @@
  * ICS 2175 - Introduction to Computer Programming
  * Laboratory 01 - Exercise 03: Personalised Calculation
  *
- * Student Name: TODO
- * Registration Number: TODO
- * Variant ID: TODO   (assigned by your lecturer, e.g. V07)
- * Scenario: TODO     (assigned by your lecturer)
+ * Student Name: ERICK LAFIFA
+ * Registration Number: ENB211-0059/2025
+ * Variant ID: V16
+ * Scenario: DISTANCE TRAVELLED
  *
  * Instructions:
  *   - Record your assigned variant details above.
@@ -19,10 +19,13 @@
 
 int main(void)
 {
-    /* TODO: Declare input variables with your assigned values */
-    /* TODO: Declare a result variable */
-    /* TODO: Perform the required arithmetic operation */
-    /* TODO: Print the result using the required output label */
+   int speed = 60;
+    float time = 2.5f;
+    float distance;
+
+    distance = speed * time;
+
+    printf("Distance: %.1f\n", distance);
 
     return 0;
 }
